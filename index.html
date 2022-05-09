@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans pirmais HTML Dokuments</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    <h1>Virsraksts!</h1>
+<!--Komentārs-->
+<div id="special">
+<div class="ramitis">
+<h4>Saraksts</h4>
+<!--nesakārtots sarkats-->
+<ul>
+    <li>viens</li>
+    <li>septiņi</li>
+    <li>divi</li>
+</ul>
+</div>
+<div class="ramitis">
+<!--Sakārtots saraksts-->
+<ol>
+    <li><a href="https://yt3.ggpht.com/ytc/AKedOLRffwTq3eMNMxupDmRaUdd-hwi8-s62CldJ0EwiSA=s900-c-k-c0x00ffffff-no-rj" target="_blank">Viens</a></li>
+    <li>divi</li>
+    <li>trīs</li>
+</ol>
+</div>
+    </div>
+
+<h3 class="zalsteksts">Mazais virsraksts</h3>
+<p class="zalsteksts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et magna eu metus hendrerit fringilla. Morbi molestie justo varius dolor sollicitudin, et luctus erat molestie. Aenean at ex vitae sem interdum molestie. <a href="https://www.lipsum.com/feed/html" target="_blank"><strong>Comment</strong></a> imperdiet mollis justo, eu consectetur metus egestas in. Vivamus lacinia nulla et scelerisque fringilla. Cras in ipsum dolor. Fusce nisl neque, aliquet vitae nisl ut, sodales commodo lorem. Aliquam sapien sem, luctus maximus porta a, bibendum quis arcu. Donec tempor, turpis in semper accumsan, leo ante feugiat turpis, vitae iaculis nulla velit eget turpis. Aliquam lobortis varius orci quis ornare. Proin sodales congue quam ut aliquet. Etiam.</p>
+<br>
+
+<a href="https://www.google.com/" target="_blank">Google</a>
+<br>
+<img
+class="crop"
+ src="images/66477273_2451465481563870_2700865032761114624_n.jpg" alt="bilde">
+
+<h3>OTRS!</h3>
+<p id="unikals">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis sem erat, sit amet vestibulum lorem varius eget. Aenean eget suscipit nulla, in pulvinar metus. Donec purus risus, tincidunt finibus turpis vel, blandit dictum nunc. Nullam sit amet libero sit amet leo scelerisque ultricies ac et urna. Quisque consectetur laoreet.</p>
+</div>
+
+<input id="vecums">
+<br>
+<button id="poga">SPIED MANI!</button>
+<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+
+</body>
+
+<script>
+    document.getElementById("poga").onclick = function() {
+        var vecums = document.getElementById("vecums").value;
+        alert("Poga tika nospiesta");
+        document.getElementById("lietotajavecums").innerText = vecums;
+    };
+    </script>
+    
+
+</html>
