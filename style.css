@@ -1,49 +1,97 @@
-.zalsteksts {
-    color:green;
-    border-style:inset;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.ramitis {
-    border-color: chocolate;
-    border-style: double;
-    }
-
-#unikals {
-color: blue;
-font-size: large;
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.crop {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-}
-
-#special {
-    border-style: dashed;
-    border-color: blue;
-    width: 400px;
-    margin: auto;
-    padding: 20px;
+.full {
+    width: 100vh;
+    max-width: 1200vh;
+    min-height: 85vh;
+    background-color: rgb(206, 205, 205);
+    margin: 0px;
     display: grid;
-    grid-template-columns: 30% 70%;
-    background-color: gold;
+    grid-template-columns: 2fr 4fr;
+    font-family: "Courier New";
 }
 
-ul li {
-    font-style: italic;
+.left {
+    position: initial;
+    background-color: rgb(222, 230, 231);
+    padding: 20px;
+
 }
 
-ol li {
-    text-decoration: underline;
-}
-body{
-    max-width: 800px;
-    margin: auto;
-    border-style: hidden;
-    background-color: rgb(196, 171, 163);
+.right {
+    position: initial;
+    background-color: rgb(219, 238, 240);
+    padding: 20px;
+
 }
 
-.main {
-    background-color: rgb(173, 173, 173);
+.image,
+.Contact,
+.Skills,
+.Language,
+.Hobbies,
+.title,
+.Summary,
+.Experience,
+.Education,
+.project {
+    margin-bottom: 30px;
+}
+
+.h2 {
+    background-color: rgb(4, 96, 150);
+
+}
+
+body,
+h2,
+h3 {
+    font-family: "Geneva";
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.first-name {
+    font-weight: 700;
+}
+
+.last-name {
+    font-weight: 300;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.email,
+.phone {
+    color: #999;
+    font-weight: 300;
 }

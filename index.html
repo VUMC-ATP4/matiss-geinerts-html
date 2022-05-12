@@ -1,64 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mans pirmais HTML Dokuments</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon23.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="main">
-    <h1>Virsraksts!</h1>
-<!--Komentārs-->
-<div id="special">
-<div class="ramitis">
-<h4>Saraksts</h4>
-<!--nesakārtots sarkats-->
-<ul>
-    <li>viens</li>
-    <li>septiņi</li>
-    <li>divi</li>
-</ul>
-</div>
-<div class="ramitis">
-<!--Sakārtots saraksts-->
-<ol>
-    <li><a href="https://yt3.ggpht.com/ytc/AKedOLRffwTq3eMNMxupDmRaUdd-hwi8-s62CldJ0EwiSA=s900-c-k-c0x00ffffff-no-rj" target="_blank">Viens</a></li>
-    <li>divi</li>
-    <li>trīs</li>
-</ol>
-</div>
-    </div>
+    <div class="header">
+        <div class="full-name">
+            <span class="first-name">Matīss</span>
+            <span class="last-name">Geinerts</span>
+        </div>
+        <div class="contact-info">
+            <span class="email-val"><a href="mailto:matiss.geinerts@gmail.com">matiss.geinerts@gmail.com</a></span>
+            <span class="separator"></span>
+            <span class="phone">Phone: </span>
+            <span class="phone-val">+371 29971260</span>
+        </div>
 
-<h3 class="zalsteksts">Mazais virsraksts</h3>
-<p class="zalsteksts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et magna eu metus hendrerit fringilla. Morbi molestie justo varius dolor sollicitudin, et luctus erat molestie. Aenean at ex vitae sem interdum molestie. <a href="https://www.lipsum.com/feed/html" target="_blank"><strong>Comment</strong></a> imperdiet mollis justo, eu consectetur metus egestas in. Vivamus lacinia nulla et scelerisque fringilla. Cras in ipsum dolor. Fusce nisl neque, aliquet vitae nisl ut, sodales commodo lorem. Aliquam sapien sem, luctus maximus porta a, bibendum quis arcu. Donec tempor, turpis in semper accumsan, leo ante feugiat turpis, vitae iaculis nulla velit eget turpis. Aliquam lobortis varius orci quis ornare. Proin sodales congue quam ut aliquet. Etiam.</p>
-<br>
+        <div class="full">
 
-<a href="https://www.google.com/" target="_blank">Google</a>
-<br>
-<img
-class="crop"
- src="images/66477273_2451465481563870_2700865032761114624_n.jpg" alt="bilde">
+            <div class="left">
+                <div class="image">
+                    <img src="images/My project.jpg" alt="gfg-logo" style="width:120px;height:120px; object-fit:cover;">
 
-<h3>OTRS!</h3>
-<p id="unikals">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis sem erat, sit amet vestibulum lorem varius eget. Aenean eget suscipit nulla, in pulvinar metus. Donec purus risus, tincidunt finibus turpis vel, blandit dictum nunc. Nullam sit amet libero sit amet leo scelerisque ultricies ac et urna. Quisque consectetur laoreet.</p>
-</div>
+                </div>
 
-<input id="vecums">
-<br>
-<button id="poga">SPIED MANI!</button>
-<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+                <div class="Skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><b>Organization skills</b></li>
+                        <li><b>HTML skills</b></li>
+                    </ul>
+                </div>
+                <div class="Language">
+                    <h2>Language</h2>
+                    <ul>
+                        <li>English</li>
+                        <li>Russian</li>
+                        <li>Latvian</li>
+                    </ul>
+                </div>
+                <div class="Hobbies">
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Riding a bicycle</li>
+                        <li>Swimming</li>
+                        <li>Do nothing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="name">
+                    <h1>ZN Metāls</h1>
+                </div>
+                <div class="title">
 
+
+                    <p>Production foreman</p>
+
+
+
+                </div>
+                <div class="Summary">
+                    <h2>Summary</h2>
+
+
+                    <p>To secure a challenging position in a
+                        reputable organization
+                        to expand my learning knowledge and skill
+                    </p>
+
+
+
+                </div>
+                <div class="Experience">
+                    <h2>Experience</h2>
+                    <h3>Production foreman</h3>
+
+
+                    <p>October 2018 to Present</p>
+
+
+
+                    <ul>
+                        <li>Monitor compliance with occupational safety and other regulations.</li>
+                        <li>Select and train employees, control the performance of their duties.</li>
+                        <li>To plan and organize the work of subordinate employees.</li>
+                    </ul>
+
+                </div>
+                <div class="Education">
+                    <h2>Education</h2>
+                    <table>
+                        <tr>
+                            <th>University/college </th>
+                            <th>Passing year </th>
+
+                        </tr>
+                        <tr>
+                            <td>Riga Technical University</td>
+                            <td>2015</td>
+
+                        </tr>
+                        <tr>
+                            <td>Test automation COURSES</td>
+                            <td>Present</td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
 </body>
-
-<script>
-    document.getElementById("poga").onclick = function() {
-        var vecums = document.getElementById("vecums").value;
-        alert("Poga tika nospiesta");
-        document.getElementById("lietotajavecums").innerText = vecums;
-    };
-    </script>
-    
 
 </html>
