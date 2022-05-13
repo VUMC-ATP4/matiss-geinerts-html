@@ -23,7 +23,7 @@ body {
 }
 
 .left {
-    position: inherit;
+    position: initial;
     background-color: rgb(222, 230, 231);
     padding: 20px;
 
