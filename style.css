@@ -37,7 +37,6 @@ body {
 }
 .image,
 .Contact,
-.Skills,
 .Language,
 .Hobbies,
 .title,
@@ -106,4 +105,39 @@ br {
     content: ""; /* clears default height */
     margin-top: 3px; /* change this to whatever height you want it */
 }
+.Skills2 ul{
+    width: 95%;
+    margin: auto;
+        }
+
+.Skills ul{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.Language ul{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.Language ul{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.Hobbies ul{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+
+
 
