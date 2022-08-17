@@ -27,7 +27,7 @@ body {
     margin: 0px;
     display: grid;
     grid-template-columns: 2fr 4fr;
-    font-family: "Arial";
+    font-family: "Times New Roman";
 }
 
 .left {
@@ -63,7 +63,7 @@ body {
 body,
 h2,
 h3 {
-    font-family: "Copperplate";
+    font-family: "Arial";
 }
 
 html {
