@@ -149,6 +149,16 @@ html, body {
     overflow-x: hidden;
 }
 
+img {
+    border-radius: 50%;
+    
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
 
 
 
